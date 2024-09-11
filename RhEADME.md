@@ -45,8 +45,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 This project helped me practice key front-end development concepts, especially CSS layout techniques like Flexbox and media queries for responsiveness. I also learned about structuring a simple recipe webpage, focusing on typography and spacing for better readability. Below are a few highlights:
 
-- HTML: Structuring content with proper use of tags like <ul>, <ol>, and <table>.
-
 ```html
           <table>
             <tr>
@@ -60,12 +58,14 @@ This project helped me practice key front-end development concepts, especially C
           </table>
 ```
 - CSS: Creating a responsive layout using Flexbox and ensuring images adjust dynamically to different screen sizes.
-          img {
+ ```css
+        img {
             max-width: 100%;   
             height: auto;
             display: block;    
             border-radius: 5px;
           }
+```
 
 ### Continued development
 
