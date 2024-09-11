@@ -14,7 +14,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 
@@ -37,61 +36,55 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Google Fonts for typography
+- Google icons
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project helped me practice key front-end development concepts, especially CSS layout techniques like Flexbox and media queries for responsiveness. I also learned about structuring a simple recipe webpage, focusing on typography and spacing for better readability. Below are a few highlights:
 
-To see how you can add code snippets, see below:
+- HTML: Structuring content with proper use of tags like <ul>, <ol>, and <table>.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+          <table>
+            <tr>
+              <td>Calories</td>
+              <th>277kcal</th>
+            </tr>
+            <tr>
+              <td>Protein</td>
+              <th>20g</th>
+            </tr>
+          </table>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- CSS: Creating a responsive layout using Flexbox and ensuring images adjust dynamically to different screen sizes.
+          img {
+            max-width: 100%;   
+            height: auto;
+            display: block;    
+            border-radius: 5px;
+          }
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Moving forward, I want to explore:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- CSS Grid: I used Flexbox for this project but I want to expand my skillset by incorporating CSS Grid in future projects for more complex layouts.
+- JavaScript Interactivity: Implementing interactivity like toggling between different nutrition facts or a "step-by-step" mode for recipe instructions.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Tricks - Flexbox Guide ](https://css-tricks.com/snippets/css/a-guide-to-flexbox) -This was helpful for understanding how Flexbox works, and I applied it to structure my page layout.
+- [MDN Web Docs ](https://developer.mozilla.org/en-US/) - For understanding semantic HTML and responsive image handling.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Yukti Gupta](https://frontendmetor-recipe-page.netlify.app/)
+- Frontend Mentor - [@yMeeraki](https://www.frontendmentor.io/profile/yMeeraki)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
