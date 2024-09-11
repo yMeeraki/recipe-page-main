@@ -22,7 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![![screencapture-frontendmetor-recipe-page-netlify-app-2024-09-11-12_05_38](https://github.com/user-attachments/assets/1d19619b-4bff-4459-865c-5476f0b92d3d)
+](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
