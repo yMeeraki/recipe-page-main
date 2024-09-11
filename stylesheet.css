@@ -1,0 +1,98 @@
+/* Style by tags*/
+
+body{
+    margin: 40px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+h2, li::marker, th{
+    color:  hsl(14, 45%, 36%);
+    font-weight: bold;
+    
+}
+
+img {
+    max-width: 100%;   
+    height: auto;      
+    display: block;    
+    border-radius: 5px;
+}
+
+li{
+    padding: 10px 0px;
+    
+    text-align: left;
+   
+}
+
+
+h3, p, li, table{
+    font-family: "Outfit", sans-serif;
+   
+    
+}
+
+p, li{
+    
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+th{
+    text-align: left;
+}
+
+#nutrition-row{
+    border: 1px solid aqua;
+    padding-bottom: 20px;
+   
+
+}
+
+table{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+
+/*Stylle by Id*/
+
+#container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; 
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+#preparation-time{
+    background-color:hsl(320, 100%, 98%);
+    margin-left: 30px;
+    padding-left:10px;
+}
+
+#preparation-time h3, #preparation-time li::marker{
+    color:  hsl(332, 51%, 32%);
+}
+
+
+
+
+ul li, ol li {
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+    text-indent: 20px;
+}
+
+
+li span {
+    position: relative;
+    text-align: left;
+    
+  }
+
+  tr{
+    color: hsl(30, 10%, 34%);
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+  }
